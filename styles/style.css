@@ -68,7 +68,7 @@
   height: 568px;
   width: 568px;
   position: absolute;
-  top: 64px ;
+  top: 64px;
   right: 0px;
   background-color: #2F80ED;
 }
@@ -84,7 +84,7 @@
 }
 
 .two-columns__brif{
-  justify-self:flex-start;
+  justify-self: flex-start;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -289,7 +289,7 @@
   position: absolute;
   top: 0px;
   right: -124px;
-  width: 660px;;
+  width: 660px;
   height: 636px;
   z-index: 0;
 }
@@ -314,7 +314,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: 550px
+  margin-right: 550px;
 }
 
 .logo_place_footer{
