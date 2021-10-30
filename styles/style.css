@@ -51,6 +51,7 @@
 
 .header__link{
   text-decoration: none;
+  color: #2F80ED;
 }
 
 .header__main-ilustration{
@@ -88,6 +89,7 @@
   font-weight: normal;
   text-decoration: none;
   width: 175px;
+  color: #2F80ED;
 }
 
 .two-columns__main-text{
@@ -163,7 +165,7 @@
 
 .table__text{
   line-height: 1.2;
-  font-size: 18pxx;
+  font-size: 18px;
   font-weight: normal;
 }
 
@@ -172,7 +174,6 @@
   margin: auto;
   padding: 0px 0px;
   height: 790px;
-  width: 1700x;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -213,6 +214,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  color:#2F80ED;
   }
 
 .feynman__image{
@@ -227,7 +229,7 @@
 .kaufman{
   position:relative;
   padding: 0px 90px 90px;
-  width: 1700x;
+  margin: auto;
   overflow: hidden;
   background-color:#1F1F1F;
   color: white;
@@ -340,11 +342,13 @@
 
 .footer__column-links{
   padding-left: 0px;
+  list-style: none;
 }
 
 .footer__column-link{
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  list-style: none;
+  text-decoration: none;
+  color: white;
 }
