@@ -6,33 +6,27 @@
 }
 
 .header{
-  position:relative;
-  margin: auto;
-  padding: 0px;
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  background-size:cover;
   background-color: #F2F2F2;
 }
 
 .logo_place_header{
-  width:154px;
+  position: absolute;
+  width: 151px;
   height: 31px;
-  position:absolute;
   top: 30px;
-  left: 64px;
+  left:64px;
   z-index: 2;
 }
 
 .header__title{
-  position: absolute;
-  left: 64px;
+  margin-left: 64px;
   width: 730px;
+  align-self: center;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -40,10 +34,10 @@
 }
 
 .header__subtitle{
-  width: 400px;
   position: absolute;
-  bottom:30px;
   left: 64px;
+  bottom: 30px;
+  width: 400px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -295,6 +289,7 @@
 }
 
 .footer{
+  width: 1600px;
   padding-top: 40px;
   min-height: 350px;
   background-color:#1F1F1F;
@@ -303,7 +298,7 @@
 
 .footer__columns{
   margin: auto;
-  width: 1400px;
+  padding: 0px 64px;
   height: 250px;
   display: flex;
   flex-basis: 711px;
