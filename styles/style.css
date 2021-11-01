@@ -3,6 +3,7 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 .header{
@@ -45,11 +46,11 @@ z-index: 2;
 
 .header__main-ilustration{
   position: absolute;
-right: 0px;
-bottom: 0px;
-width: 756px;
-height: 608px;
-z-index: 2;
+  right: 0px;
+  bottom: 0px;
+  width: 756px;
+  height: 608px;
+  z-index: 2;
 }
 
 .header__squre-pic{
@@ -239,7 +240,6 @@ z-index: 2;
 
 .footer__columns{
   margin: auto;
-  padding: 0px 64px;
   width: 90%;
   height: 250px;
   display: flex;
