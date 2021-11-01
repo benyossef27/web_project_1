@@ -11,7 +11,7 @@ height: 100vh;
 min-height: 600px;
 max-height: 756px;
 display: flex;
-background-color: #F2F2F2
+background-color: #F2F2F2;
 }
 
 .logo_place_header{
@@ -29,7 +29,7 @@ width: 730px;
 align-self: center;
 line-height: 96px;
 font-size: 102px;
-font-weight: bold
+font-weight: bold;
 }
 
 .header__subtitle{
@@ -160,7 +160,7 @@ z-index: 2;
 }
 
 .feynman{
-  position: relative;;
+  position: relative;
   height: 790px;
 }
 
@@ -188,7 +188,7 @@ z-index: 2;
   position: absolute;
   bottom: 0px;
   left: 0px;
-  z-index: -1
+  z-index: -1;
 }
 
 .feynman__link{
@@ -234,7 +234,7 @@ z-index: 2;
   background-color: black;
   color: #F2F2F2;
   min-height: 350px;
-  margin: auto
+  margin: auto;
 }
 
 .footer__columns{
