@@ -63,12 +63,9 @@ z-index: 2;
   z-index: 1;
 }
 
-.description{
-  margin: 100px auto;
-}
 
 .two-coulumns{
-  margin: auto;
+  margin: 100px auto;
   width: 80%;
   display: flex;
   flex-direction: row;
@@ -108,12 +105,9 @@ z-index: 2;
   font-weight: bold;
 }
 
-.digits{
-  margin: auto 100px 100px;
-}
 
 .section-title{
-  margin: auto;
+  margin: 100px auto;
   width: 60%;
   text-align: center;
   line-height: 69px;
@@ -163,6 +157,8 @@ z-index: 2;
 .feynman{
   position: relative;
   height: 790px;
+  background-color: #F2F2F2;
+  z-index: 0;
 }
 
 .feynman__title{
@@ -203,7 +199,6 @@ z-index: 2;
 }
 
 .kaufman{
-  margin: auto;
   position: relative;
   background-color: black;
   color: #F2F2F2;
