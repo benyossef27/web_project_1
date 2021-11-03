@@ -256,19 +256,23 @@
   color: #F2F2F2;
   min-height: 350px;
   margin: auto;
+  border: red solid 1px;
 }
 
 .footer__columns{
-  margin: auto;
+  min-height: 250px;
+  margin: 60px auto 40px;
   width: 90%;
   display: flex;
   justify-content:space-between;
+  border: red solid 1px;
 }
 
 
 .logo_place_footer{
   width: 183px;
   height: 35px;
+  border: red solid 1px;
 }
 
 .footer__author{
@@ -276,13 +280,17 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  border: red solid 1px;
 }
 
 .footer__column_content_copyright{
   display: flex;
   flex-direction: column;
+  align-items:baseline;
+  justify-content: space-between;
   flex-basis: 711px;
   justify-content: space-between;
+
 }
 
 .footer__column-heading{
