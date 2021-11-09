@@ -19,11 +19,11 @@
 @import url(../blocks/content/table/__cell/table__cell.css);
 @import url(../blocks/content/table/__heading/table__heading.css);
 @import url(../blocks/content/table/__text/table__text.css);
-@import url(../blocks/content/description/two-columns/tow-columns.css);
-@import url(../blocks/content/description/two-columns/__brief/two-columns__brief.css);
-@import url(../blocks/content/description/two-columns/__main-text/two-columns__main-text.css);
-@import url(../blocks/content/description/two-columns/__paragraph/two-columns__paragraph.css);
-@import url(../blocks/content/description/two-columns/__span-accent/two-columns__span-accent.css);
+@import url(../blocks/content/two-columns/tow-columns.css);
+@import url(../blocks/content/two-columns/__brief/two-columns__brief.css);
+@import url(../blocks/content/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/content/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/content/two-columns/__span-accent/two-columns__span-accent.css);
 @import url(../blocks/content/section-title/_theme/section-title_theme_dark);
 @import url(../blocks/content/section-subtitle/_theme/section-subtitle_theme_dark.css);
 @import url(../blocks/content/table/_theme/table_theme_dark.css);
