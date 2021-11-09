@@ -5,71 +5,17 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.header{
-  position: relative;
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  display: flex;
-  background-color: #F2F2F2;
-  overflow-x: hidden;
-}
 
-.logo_place_header{
-  position: absolute;
-  width: 154px;
-  height: 31px;
-  top: 30px;
-  left:64px;
-  z-index: 2;
-}
 
-.header__title{
-  margin: auto;
-  margin-left: 64px;
-  width: 730px;
-  align-self: center;
-  line-height: 96px;
-  font-size: 102px;
-  font-weight: bold;
-  z-index: 2;
-}
 
-.header__subtitle{
-  margin: auto;
-  position: absolute;
-  width: 388px;
-  left: 64px;
-  bottom: 30px;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  z-index: 2;
-}
 
-.header__main-ilustration{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 756px;
-  height: 608px;
-  z-index: 1;
-}
 
-.header__link{
-  color: #2F80ED;
-  text-decoration: none;
-}
 
-.header__squre-pic{
-  background-color: #2F80ED;
-  position: absolute;
-  right: 0;
-  top: 64px;
-  width: 568px;
-  height: 568px;
-  z-index: 0;
-}
+
+
+
+
+
 
 
 .two-coulumns{
