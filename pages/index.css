@@ -34,6 +34,9 @@
 @import url(../blocks/content/cards/__image/cards__image.css);
 @import url(../blocks/content/cards/__item/cards__item.css);
 @import url(../blocks/content/cards/__title/);
+@import url(../blocks/content/video/video.css);
+@import url(../blocks/content/video/__iframes/video__iframes.css);
+@import url(../blocks/content/video/__iframe/video__iframe.css);
 @import url(../blocks/logo/_place/_footer/logo_place_footer.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
