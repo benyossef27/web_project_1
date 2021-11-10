@@ -1,5 +1,5 @@
 .links{
-  transition: 1s ease-in-out;
+  transition: 2s ease-in-out;
 }
 .links:hover{
   opacity: 0.3;
