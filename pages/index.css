@@ -57,9 +57,5 @@
 @import url(../blocks/footer/__columns-heading/footer__columns-heading.css);
 @import url(../blocks/footer/__columns-list/footer__columns-list.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
-@import url(../blocks/footer/__columns/_content/footer__columns_content_copyright.css);
+@import url(../blocks/footer/__columns/_content/_copyright/footer__columns_content_copyright.css);
 @import url(../blocks/links/links.css);
-
-
-
-
