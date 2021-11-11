@@ -1,8 +1,13 @@
 .kaufman__triangle{
   position: absolute;
+  margin-top: 100px;
   right: -124px;
   top: 0px;
   width: 660px;
   height: 636px;
   z-index: -1;
+  animation: rotation 20s;
+  animation-play-state: running;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
