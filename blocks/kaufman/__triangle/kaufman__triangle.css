@@ -6,8 +6,4 @@
   width: 660px;
   height: 636px;
   z-index: -1;
-  animation: rotation 20s;
-  animation-play-state: running;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
 }

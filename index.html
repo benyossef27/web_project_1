@@ -4,14 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="wiph=device-wiph, initial-scale=1.0" />
-  <link href="./vendor/normalize.css" rel="stylesheet" />
   <link href="./pages/index.css" rel="stylesheet" />
-  <link href="./styles/style.css" rel="stylesheet" />
   <title>Learning how to learn</title>
 </head>
 
 <body>
-  <div class="page">
+  <div class="root">
     <header class="header">
       <img class="logo logo_place_header" src="./images/header/logo/logo_place_header.png"
         alt="the yandex 'Y' logo together with the practicum dev progrem logo" />
@@ -23,7 +21,7 @@
       </p>
       <img class="header__main-ilustration" src="./images/header/main-ilustration/header-image.png"
         alt="sorry, our wondering pondring hippster on a rock pic wouldn't load..." />
-      <div class="header__squre-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
 
     <main class="content">
@@ -63,8 +61,8 @@
       <section class="techniques">
         <h2 class="section-title">Lerning Techniques</h2>
         <p class="section-subtitle">Five Strategies from Barbara Oakley</p>
-        <div class="cards">
-          <div class="cards__item">
+        <ul class="cards">
+          <li class="cards__item">
             <img class="cards__image" src="./images/content/cards/cards-attention.png"
               alt="couldn't load this book that would have changed the way you think" />
             <h3 class="cards__title">Two Ways of Thinking</h3>
@@ -72,8 +70,8 @@
               Deep understanding comes from being able to toggle back and
               forth between focused and diffused thinking
             </p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img class="cards__image" src="./images/content/cards/cards-recall.png"
               alt="couldn't load learning boy greek statue" />
             <h3 class="cards__title">Recall</h3>
@@ -81,8 +79,8 @@
               Improving your ability to remember key bits of information helps
               to connect different parts of the brain
             </p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img class="cards__image" src="./images/content/cards/cards-interleaving.png"
               alt="couldn't load train stasion pic" />
             <h3 class="cards__title">Interleaving</h3>
@@ -90,8 +88,8 @@
               When you learn multiple skills at the same time, they reinforce
               each other
             </p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img class="cards__image" src="./images/content/cards/cards-question.png"
               alt="couldn't load man standing in a hall with too many entrances and windows wondering where to start" />
             <h3 class="cards__title">Questions</h3>
@@ -100,8 +98,8 @@
               process in different settings. Only then can you be truly
               certain you've understood something
             </p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img class="cards__image" src="./images/content/cards/cards-competence.png"
               alt="couldn't load a photo that shows how to get wrist infection with a bunch of books you hopfully read" />
             <h3 class="cards__title">Illusion of Competence</h3>
@@ -110,11 +108,8 @@
               process in different settings. Only then can you be truly
               certain you've understood something
             </p>
-          </div>
-          <div class="cards__item">
-            <img class="cards__image" src="#" alt="space still up for grabs" />
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
 
       <section class="video">
@@ -133,7 +128,8 @@
       <section class="oakley">
         <article class="two-columns">
           <h2 class="two-columns__brief">Barbara Oakley’s story</h2>
-          <p class="two-columns__main-text">
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">
             Math didn't come naturally to Barbara in childhood. She thought of
             herself as more of a humanities person, and not a brilliant one at
             that. With an eye to becoming a linguist, after school she
@@ -147,6 +143,7 @@
             people may get at first glance gives you a deeper, more
             comprehensive understanding of the subject matter
           </p>
+          </div>
         </article>
       </section>
 
@@ -223,13 +220,13 @@
         <div class="khan__container">
           <p class="khan__author">Salman Khan</p>
           <h2 class="khan__title">The One World School house</h2>
-          <p class="khan__quote">
+          <blockquote class="khan__quote">
             Sal Khan's passion and innovation is transforming learning for
             millions of students worldwide. The One World Schoolhouse is a
             must-read for all who are committed to improving education so
             students everywhere can gain the skills and knowledge to be
             successful in school, careers and life.
-          </p>
+          </blockquote>
           <p class="khan__quote-author">George Lucas</p>
           <p class="khan__quote-author-subline">Filmmaker</p>
           <div class="khan__book-container">
@@ -311,7 +308,7 @@
             </p>
           </li>
         </ul>
-        <img class="kaufman__triangle" src="images/content/kaufman/kaufman-triangle.svg" alt="blue triangle" />
+        <img class="kaufman__triangle rotation" src="images/content/kaufman/kaufman-triangle.svg" alt="blue triangle" />
       </section>
       <section class="resources">
         <h2 class="section-title">Useful resources</h2>
@@ -319,19 +316,15 @@
           Further materials on learning techniques and hacks
         </p>
         <div class="resources__logo-zone">
-          <a class="resources__logo links" href="https://ed.ted.com"><img
-              src="./images/content/resources/logo/resources-tedED.png" alt="Teded logo"
-              style="height: 100%; width: 100%" /></a>
-          <a class="resources__logo links" href="https://medium.com"><img
-              src="./images/content/resources/logo/resources-Medium.png" alt="medium logo"
-              style="height: 100%; width: 100%" /></a>
-          <a class="resources__logo links" href="https://www.dezeen.com/"><img
-              src="./images/content/resources/logo/resources-dezeen.png" alt="dezeen logo"
-              style="height: 100%; width: 100%" /></a>
-          <a class="resources__logo links" href="https://www.goodreads.com"><img
-              src="./images/content/resources/logo/resources-goodreads.png" alt="goodreads logo"
-              style="height: 100%; width: 100%" /></a>
-        </div>
+          <a class="resources__logo links resources__logo_image" href="https://ed.ted.com"><img
+              src="./images/content/resources/logo/resources-tedED.png" alt="Teded logo"/></a>
+          <a class="resources__logo links resources__logo_image" href="https://medium.com"><img
+              src="./images/content/resources/logo/resources-Medium.png" alt="medium logo"/></a>
+          <a class="resources__logo links resources__logo_image" href="https://www.dezeen.com/"><img
+              src="./images/content/resources/logo/resources-dezeen.png" alt="dezeen logo"/></a>
+          <a class="resources__logo links resources__logo_image" href="https://www.goodreads.com"><img
+              src="./images/content/resources/logo/resources-goodreads.png" alt="goodreads logo"/></a>
+          </div>
       </section>
     </main>
     <footer class="footer">
@@ -361,13 +354,13 @@
           <ul class="footer__column-list">
             <li>
               <a class="footer__column-link links" href="https://www.facebook.com/YPracticum/"><img
-                  class="footer__soicial-icon links" src="./images/footer/social/facebook_white.svg"
+                  class="footer__soicial-icon" src="./images/footer/social/facebook_white.svg"
                   alt="Facebook logo" />
                 Facebook</a>
             </li>
             <li>
               <a class="footer__column-link links" href="https://www.instagram.com/y_practicum/"><img
-                  class="footer__soicial-icon links" src="./images/footer/social/instagram_white.svg"
+                  class="footer__soicial-icon" src="./images/footer/social/instagram_white.svg"
                   alt="Instagram logo" />
                 Instagram</a>
             </li>

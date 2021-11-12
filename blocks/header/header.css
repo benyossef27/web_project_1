@@ -6,7 +6,7 @@
   max-height: 756px;
   display: flex;
   background-color: #F2F2F2;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 
