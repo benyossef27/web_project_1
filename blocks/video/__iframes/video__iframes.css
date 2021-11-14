@@ -1,5 +1,5 @@
 .video__iframes{
-  margin: 50px auto;
+  margin: 0 auto;
   list-style: none;
   display: flex;
   column-gap: 20px;
